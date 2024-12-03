@@ -418,7 +418,6 @@ GameObject:
   - component: {fileID: 8362762684263898632}
   - component: {fileID: 2396773164009571084}
   - component: {fileID: 1822768857275904503}
-  - component: {fileID: 7308959686409227682}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -484,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1204812591
+  GlobalObjectIdHash: 246941373
   InScenePlacedSourceGlobalObjectIdHash: 246941373
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -544,7 +543,7 @@ MonoBehaviour:
   UseQuaternionSynchronization: 0
   UseQuaternionCompression: 0
   UseHalfFloatPrecision: 0
-  InLocalSpace: 0
+  InLocalSpace: 1
   Interpolate: 1
   SlerpPosition: 0
 --- !u!136 &2396773164009571084
@@ -583,21 +582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 3
---- !u!114 &7308959686409227682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7939610481829072795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b879e2184bc50a248891cd222c4eadba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 2169299316334852481, guid: 50c959187c1ddc84fba2ec0603f3816e, type: 3}
-  respawnDelay: 3
+  spawnPoint: 1
 --- !u!1 &8677817329433736305
 GameObject:
   m_ObjectHideFlags: 0

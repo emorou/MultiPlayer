@@ -27,7 +27,7 @@ public class Bullet : NetworkBehaviour
         if (IsServer && other.gameObject.tag == "Player") // Hanya server yang menangani damage
         {
             other.gameObject.GetComponent<HostileMark>().DamageHostile(damage);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 
