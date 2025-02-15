@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 246941373
+  GlobalObjectIdHash: 1204812591
   InScenePlacedSourceGlobalObjectIdHash: 246941373
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -581,8 +581,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63b17bdcaf92a0d419a1416bb349dbb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 3
-  spawnPoint: 1
+  currentHealth: 5
+  maxHealth: 100
 --- !u!1 &8677817329433736305
 GameObject:
   m_ObjectHideFlags: 0

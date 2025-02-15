@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 2627030124639235926}
   - component: {fileID: 2082952218992229069}
   - component: {fileID: -7534085460876236179}
+  - component: {fileID: 3540129424231194422}
   m_Layer: 7
   m_Name: Player Bullet 1
   m_TagString: Untagged
@@ -241,7 +242,7 @@ MonoBehaviour:
   bulletSpeed: 50
   lifetime: 5
   theRigidbody: {fileID: 3025259104837540435}
-  damage: 3
+  damage: 1
 --- !u!114 &-7534085460876236179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,3 +274,15 @@ MonoBehaviour:
   InLocalSpace: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!114 &3540129424231194422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7013978748448452416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c0be61502bb534f922ebb746851216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
